@@ -1,4 +1,6 @@
-# Tata EV Diagnostics
+# TATA-EV
+
+## Tata EV Diagnostics
 
 Failed-sessions dashboard with its own login page, database and automatic updates.
 Hosted on **Netlify** from GitHub; no other services needed.
