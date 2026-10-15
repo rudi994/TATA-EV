@@ -1,0 +1,27 @@
+{
+  "name": "tata-ev-diagnostics",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "setup": "npm install && npm run build",
+    "user": "node --disable-warning=ExperimentalWarning server/add-user.js",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.1",
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^5.4.8"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
